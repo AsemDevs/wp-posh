@@ -15,6 +15,17 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 800; // Pixels.
 }
 
+function enqueue_custom_script() {
+    wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/custom.js', array('jquery'), '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_custom_script' );
+function enqueue_custom_style() {
+    wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/custom.css', array(), '1.0.0', 'all');
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_custom_style' );
+
+
+
 if ( ! function_exists( 'hello_elementor_setup' ) ) {
 	/**
 	 * Set up theme support.

@@ -1,0 +1,296 @@
+.hero-section::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 167px;
+    background: url('http://localhost:8886/wp-content/uploads/2023/07/Group-111-1.png') no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+@media screen and (max-width: 578px) {
+    .hero-section::after {
+        width: 220px;
+        height: 100px;
+        left: 1rem;
+        background: url('http://localhost:8886/wp-content/uploads/2023/07/Rectangle-57.png') no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero-section {
+    position: relative;
+}
+
+.hero-section>.elementor-container {
+    position: relative;
+    z-index: 1;
+}
+
+#mapbutton {
+    margin: 2rem auto;
+    border-radius: 90px;
+    text-align: center;
+    display: inline-block;
+    padding: 0.4rem 0;
+    width: 330px;
+    vertical-align: middle;
+    background: #051235;
+
+}
+
+#mapbutton a {
+    color: #FFFAEF !important;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+#mapbutton svg {
+    vertical-align: middle;
+}
+
+.center-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.no-list.hs-error-msgs.inputs-list {
+    list-style-type: none;
+}
+
+.form-heading {
+    color: #000;
+    font-family: Poppins;
+    font-size: 23.312px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form-columns-1 label {
+    display: none;
+}
+
+.form-columns-1:last-of-type label:last-of-type {
+    display: flex;
+}
+
+.form-columns-1 fieldset input::placeholder {
+    color: rgba(6, 18, 53, 0.50);
+    font-family: Poppins;
+    font-size: 17.59px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140.5%;
+}
+
+.form-columns-1 input {
+    border-radius: 0 !important;
+    padding: 1rem 0 0.4rem 0 !important;
+    border: none !important;
+    margin-bottom: 1rem;
+    border-bottom: 1.7px solid rgba(0,0,0,.3) !important;
+    outline: none;
+}
+
+.elementor-widget-shortcode .elementor-widget-container {
+    border-radius: 10px;
+    box-shadow: 4.662394046783447px 4.662394046783447px 23.311969757080078px 0px rgba(229, 229, 229, 0.50);
+}
+
+.hs-dependent-field .inputs-list {
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+.hs-form-booleancheckbox label {
+    color: #051236;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.legal-consent-container {
+    margin-top: 2rem;
+}
+
+.legal-consent-container .hs-richtext {
+    margin: 0 0 2rem 3rem;
+    color: #6A879E;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.legal-consent-container .hs-richtext a {
+    color: #000;
+    font-family: Poppins;
+    text-decoration: underline;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+.hs_submit.hs-submit .hs-button {
+    color: #FFFAEF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 23.662px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.716px;
+    /* 155.172% */
+    border-radius: 36.517px;
+    background: #061235;
+    color: white;
+    border: none;
+    width: 300px;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.elementor-accordion .elementor-tab-title {
+    border-radius: 5px;
+    padding: 1.5rem 8rem 1.5rem 8rem !important;
+}
+@media screen and (max-width: 578px) {
+    #rave-mobile h2 {
+        color: #4FDCCE;
+    }
+
+    #ellips-speakers {
+        position: relative;
+    }
+
+    #ellips-speakers::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70px;
+        height: 120px;
+        background: url('http://localhost:8886/wp-content/uploads/2023/07/Ellipse-3.png') no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+}
+
+.elementor-accordion-title {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin-right: 1rem;
+    background-color: #051235;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.elementor-section-boxed.elementor-section-height-default {
+    margin: -2px;
+}
+
+input[type='checkbox'].custom-radio {
+    display: none;
+}
+
+input[type='checkbox'].custom-radio+label:before {
+    content: '';
+    display: inline-block;
+    margin-right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    /* This makes it round */
+    border: 1.319px solid #000;
+}
+
+input[type='checkbox'].custom-radio:checked+label:before {
+    background: #000;
+}
+
+@media screen and (max-width: 400px) {
+    .hs_submit.hs-submit .hs-button {
+        width: 200px
+    }
+}
+
+#agenda-ellipse {
+    position: relative;
+}
+
+#agenda-ellipse::after {
+    content: "";
+    position: absolute;
+    left: 10rem;
+    width: 250px;
+    height: 112px;
+    background: url('http://localhost:8886/wp-content/uploads/2023/07/Ellipse-3-1.png') no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+@media screen and (max-width: 578px) {
+    #agenda-ellipse::after {
+        width: 225px;
+        left: 2rem;
+    }
+
+    #mapbutton a {
+        text-decoration: none;
+    }
+
+    #meet-ellipse::before {
+        display: none;
+    }
+}
+
+#speakers-ellips {
+    position: relative;
+}
+
+#speakers-ellips::after {
+    content: "";
+    position: absolute;
+    right: 6rem;
+    top: 1rem;
+    width: 177px;
+    height: 177px;
+    background: url('http://localhost:8886/wp-content/uploads/2023/07/Ellipse-3-2.png') no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#meet-ellipse {
+    position: relative;
+
+}
+
+#meet-ellipse::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background: url('http://localhost:8886/wp-content/uploads/2023/07/Ellipse-3-3.png') no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
