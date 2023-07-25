@@ -1,4 +1,4 @@
-# Custom Form Alteration in WordPress Website
+# WP Posh
 
 This documentation covers the implementation of custom form alteration on a WordPress website. The form has been enhanced with jQuery scripts to provide improved functionality and a better user experience.
 
