@@ -25,6 +25,19 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 </head>
 <body <?php body_class(); ?>>
 
+<style>
+@media screen and (max-width: 578px) {
+    .hero-section::after {
+        width: 220px;
+        height: 100px;
+        left: 1rem;
+        background: url('<?php echo get_template_directory_uri(); ?>/wp-content/uploads/2023/07/Rectangle-57.png') no-repeat;
+        background-size: cover;
+    }
+}
+</style>
+
+
 <?php wp_body_open(); ?>
 
 <?php if ( $enable_skip_link ) { ?>

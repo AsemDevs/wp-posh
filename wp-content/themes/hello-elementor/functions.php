@@ -24,6 +24,11 @@ function enqueue_custom_style() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_style' );
 
+function add_shapes() {
+	include get_template_directory() . '/shapes.php';
+}
+add_action('wp_head', 'add_shapes');
+
 
 
 if ( ! function_exists( 'hello_elementor_setup' ) ) {

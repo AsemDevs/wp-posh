@@ -5,7 +5,6 @@ var checkExist = setInterval(function () {
     optInLabel.text('Yes, I opt-in to receive marketing tips, best practices, product news, event updates and more from Insider.');
 
     if (label.length) {
-        console.log("Emoji Exists!");
         var text = label.text().replace('👍', '');
         label.text(text);
 
@@ -25,8 +24,6 @@ var checkExist = setInterval(function () {
     // Add more fields as necessary...
 
     if (firstnameField.length && lastnameField.length) {
-        console.log("Fields Exist!");
-
         firstnameField.css('text-transform', 'capitalize').attr("placeholder", "* " + firstnameField.attr("placeholder").replace('*', ''));
         lastnameField.css('text-transform', 'capitalize').attr("placeholder", "* " + lastnameField.attr("placeholder").replace('*', ''));
         email.css('text-transform', 'capitalize').attr("placeholder", "* " + email.attr("placeholder").replace('*', ''));
